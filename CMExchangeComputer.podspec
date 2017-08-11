@@ -16,7 +16,7 @@ s.source           = { :git => 'https://github.com/DreamLCM/CMExchangeComputer.g
 
 s.ios.deployment_target = '10.3'
 
-s.source_files = 'CMExchangeComputer/Class'
+s.source_files = 'Class'
 end
 
 #验证命令：pod lib lint CMExchangeComputer.podspec --verbose
