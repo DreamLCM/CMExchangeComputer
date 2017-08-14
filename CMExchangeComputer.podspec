@@ -17,7 +17,7 @@ s.ios.deployment_target = '9.0'
 
 
 s.source_files = 'Class'
-s.resources = 'Sclass/CMExchangeComputer.podspec.xib'
+s.resource = 'Sclass'
 end
 
 #验证命令：pod lib lint CMExchangeComputer.podspec --verbose
