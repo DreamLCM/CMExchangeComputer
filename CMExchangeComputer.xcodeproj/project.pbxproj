@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		839FD18A1F4141B200EBCA6D /* CMExchangeComputer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 839FD1891F4141B200EBCA6D /* CMExchangeComputer.xib */; };
 		83AE26821F3DB3BB00826E7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE26811F3DB3BB00826E7C /* AppDelegate.swift */; };
 		83AE26841F3DB3BB00826E7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE26831F3DB3BB00826E7C /* ViewController.swift */; };
 		83AE26871F3DB3BB00826E7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AE26851F3DB3BB00826E7C /* Main.storyboard */; };
 		83AE26891F3DB3BB00826E7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AE26881F3DB3BB00826E7C /* Assets.xcassets */; };
 		83AE268C1F3DB3BB00826E7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AE268A1F3DB3BB00826E7C /* LaunchScreen.storyboard */; };
 		83AE26961F3DB60800826E7C /* CMExchangeComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE26941F3DB60800826E7C /* CMExchangeComputer.swift */; };
-		83AE26971F3DB60800826E7C /* CMExchangeComputer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83AE26951F3DB60800826E7C /* CMExchangeComputer.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		839FD1891F4141B200EBCA6D /* CMExchangeComputer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CMExchangeComputer.xib; sourceTree = "<group>"; };
 		83AE267E1F3DB3BB00826E7C /* CMExchangeComputer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMExchangeComputer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AE26811F3DB3BB00826E7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83AE26831F3DB3BB00826E7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		83AE268B1F3DB3BB00826E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83AE268D1F3DB3BB00826E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83AE26941F3DB60800826E7C /* CMExchangeComputer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMExchangeComputer.swift; sourceTree = "<group>"; };
-		83AE26951F3DB60800826E7C /* CMExchangeComputer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CMExchangeComputer.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +39,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		839FD1881F4141B200EBCA6D /* Sclass */ = {
+			isa = PBXGroup;
+			children = (
+				839FD1891F4141B200EBCA6D /* CMExchangeComputer.xib */,
+			);
+			path = Sclass;
+			sourceTree = "<group>";
+		};
 		83AE26751F3DB3BB00826E7C = {
 			isa = PBXGroup;
 			children = (
+				839FD1881F4141B200EBCA6D /* Sclass */,
 				83AE26931F3DB60800826E7C /* Class */,
 				83AE26801F3DB3BB00826E7C /* CMExchangeComputer */,
 				83AE267F1F3DB3BB00826E7C /* Products */,
@@ -73,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				83AE26941F3DB60800826E7C /* CMExchangeComputer.swift */,
-				83AE26951F3DB60800826E7C /* CMExchangeComputer.xib */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -138,7 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83AE268C1F3DB3BB00826E7C /* LaunchScreen.storyboard in Resources */,
-				83AE26971F3DB60800826E7C /* CMExchangeComputer.xib in Resources */,
+				839FD18A1F4141B200EBCA6D /* CMExchangeComputer.xib in Resources */,
 				83AE26891F3DB3BB00826E7C /* Assets.xcassets in Resources */,
 				83AE26871F3DB3BB00826E7C /* Main.storyboard in Resources */,
 			);
@@ -315,6 +323,7 @@
 				83AE26921F3DB3BB00826E7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
